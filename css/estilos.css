@@ -127,7 +127,7 @@ main {
 .container_slides {
   border-bottom: 1px solid #fff2e4;
 }
-.container_slides h5 {
+.container_slides h3 {
   color: #030202;
 }
 
@@ -135,12 +135,16 @@ main {
 .articulo1Art {
   padding: 0;
   margin-top: 100px;
+  border-bottom: 5px solid rgb(251, 236, 224);
 }
 
 .articulo1Art {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
+}
+.articulo1Art img {
+  height: 100%;
 }
 .articulo1Art p {
   display: grid;
@@ -151,21 +155,97 @@ main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   text-align: justify;
-  margin-left: 75px;
+  margin-left: 15px;
 }
 .articulo1Art img {
   border-radius: 50%;
 }
 
 /* QUIENES SOMOS */
+.quienesSomos {
+  background-color: rgb(255, 229, 208);
+  border-top: 15px solid rgb(248, 233, 221);
+  border-bottom: 5px solid rgb(63, 59, 59);
+}
 .quienesSomos h1 {
   text-align: center;
 }
-
 .quienesSomos p {
   width: auto;
-  font-size: x-large;
+  font-size: xx-large;
   text-align: center;
+  color: rgb(54, 51, 51);
+}
+
+/*FOOTER */
+footer {
+  min-height: 150px;
+  width: 100%;
+  background-color: rgb(71, 53, 41);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+footer section {
+  display: flex;
+}
+
+.textoFooter {
+  height: 150px;
+  width: 200px;
+}
+
+.footerRedes {
+  height: 150px;
+  width: 150px;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerRedes h4 {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: x-large;
+  display: flex;
+}
+
+.iconosRedes {
+  display: flex;
+}
+
+.iconosRedes a {
+  margin-top: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* TRATAMIENTOS */
+.tituloCentralTratamientos {
+  margin-bottom: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  height: 20px;
+  text-align: center;
+  text-decoration: solid underline;
+  margin-bottom: 50px;
+}
+
+.tratamientosPage h3 h3 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.tratamientosParte1 {
+  margin-top: 20px;
+}
+
+.TextosTratamientos p {
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=estilos.css.map */
