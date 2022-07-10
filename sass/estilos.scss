@@ -13,13 +13,13 @@
 }
 
 .menu {
-    background-color: #e9183b;
+    background-color: hsl(24, 91%, 75%);
     height: 75px;
-    width: 100vw;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff2e4;
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
@@ -126,5 +126,67 @@ ul.show{
 }
 
 
-    
+/*BODY*/
+main{
+    background-color: #fbf4ed;
+}
 
+/*SLIDES CARROUSEL*/
+.container_slides{
+    border-bottom: 1px solid #fff2e4;
+    h5{
+        color: #030202;
+    }
+
+}
+
+  
+
+
+/* ARTICULO 1 */
+.articulo1Art{
+    padding: 0;
+    margin-top: 100px;
+
+  }
+  
+  .articulo1Art {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+
+
+    p{
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        height: auto;
+        width: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        text-align: justify;
+        margin-left: 75px;
+    }
+    img{
+        border-radius: 50%;
+    }
+  }
+
+  
+
+
+
+
+    
+/* QUIENES SOMOS */
+.quienesSomos h1 {
+    text-align: center;
+  }
+  
+  .quienesSomos p {
+    width: auto;
+    font-size:x-large;
+    text-align: center;
+
+  }
