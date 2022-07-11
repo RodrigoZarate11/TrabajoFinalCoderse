@@ -120,7 +120,7 @@ ul.show {
 }
 /*BODY*/
 main {
-  background-color: #fbf4ed;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 /*SLIDES CARROUSEL*/
@@ -163,7 +163,6 @@ main {
 
 /* QUIENES SOMOS */
 .quienesSomos {
-  background-color: rgb(255, 229, 208);
   border-top: 15px solid rgb(248, 233, 221);
   border-bottom: 5px solid rgb(63, 59, 59);
 }
@@ -222,6 +221,10 @@ footer section {
 }
 
 /* TRATAMIENTOS */
+.tratamientosPage {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
 .tituloCentralTratamientos {
   margin-bottom: 25px;
   text-align: center;
@@ -246,6 +249,94 @@ h2 {
 
 .TextosTratamientos p {
   font-size: x-large;
+}
+
+/*CONTACTANOS*/
+.contactanos {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.form {
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+
+.form_container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form__tittle {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+
+.form__input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+
+.form__input--message {
+  font-size: 1rem;
+  padding: 1.8em 1em;
+  resize: none;
+  margin-bottom: 0.5em;
+}
+
+.form__cta {
+  font-size: 1rem;
+  background-color: #089fe0;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 450px) {
+  .form {
+    padding: 3.5em 1.5em;
+  }
+}
+/*NUESTRA TIENDA*/
+.mainTienda {
+  min-height: 69vh;
+  margin: auto;
+}
+
+.tituloNuestrosTratamientos {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.tablaTratamientos {
+  display: grid;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border-radius: 0.2em;
+  text-align: center;
+}
+.tablaTratamientos table th {
+  font-size: 1.1em;
+  padding: 0.5em;
 }
 
 /*# sourceMappingURL=estilos.css.map */
